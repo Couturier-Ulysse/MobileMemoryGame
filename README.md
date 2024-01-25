@@ -16,6 +16,12 @@ New features should be added later and this is the first version.
 
 **Where are the interesting .kt files ?**
 
-Because the project includes many features, main codes are located in this path : 
+Because the project includes many features, main codes are located in this folder : 
 
 app/src/main/java/com/example/app1011
+
+**Where are the XML files ?**
+
+For all layouts, XML files are located in this folder : 
+
+/app/src/main/res/layout/
