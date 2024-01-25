@@ -13,3 +13,9 @@ New features should be added later and this is the first version.
 3- Open the project on your Android Studio software (version I used : Giraffe version).
 
 4- I advise to plug an android phone in USB and not to use a virtual one. 
+
+**Where are the interesting XML and kt files ?**
+
+Because the project includes many features, main codes are located in this path : 
+
+app/src/main/java/com/example/app1011
