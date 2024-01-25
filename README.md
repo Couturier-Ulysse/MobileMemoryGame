@@ -14,7 +14,7 @@ New features should be added later and this is the first version.
 
 4- I advise to plug an android phone in USB and not to use a virtual one. 
 
-**Where are the interesting XML and kt files ?**
+**Where are the interesting .kt files ?**
 
 Because the project includes many features, main codes are located in this path : 
 
