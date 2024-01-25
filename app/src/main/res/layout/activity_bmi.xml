@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- La variable "user" peut être supprimée si elle n'est pas utilisée dans ce fichier -->
+        <variable
+            name="user"
+            type="com.example.app1011.User" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!-- ... Les autres éléments du layout ... -->
+
+        <!-- Ajoutez ces lignes pour les éléments que nous utilisons dans le code Kotlin -->
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="Calculate BMI"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:hint="Enter weight"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:hint="Enter height"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:textSize="28sp"
+            android:hint="We write here something"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="Try the Data Binding"
+            android:textSize="28sp" />
+
+        <!-- ... Le reste du layout ... -->
+    </LinearLayout>
+</layout>

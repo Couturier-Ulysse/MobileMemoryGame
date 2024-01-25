@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthFragment"
+    android:background="@drawable/card"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnNavFromFifthToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="50sp"
+        android:text="Back to Main menu"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:backgroundTint="@color/red"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200sp"
+        android:gravity="center"
+        android:background="@color/red"
+        android:text="YOU LOST"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400sp"
+        android:gravity="center"
+        android:background="@color/red"
+        android:text="No lives left ..."
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        />
+</FrameLayout>
